@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+input{
+    border: 2px solid black;
+    border-radius:6px;
+    padding: 5px;
+}
+paises.img{
+    width: 200px;
+}
