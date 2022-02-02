@@ -1,6 +1,8 @@
 *{
     margin:0;
-    padding:0;box-sizing: border-box;
+    padding:0;
+    box-sizing: border-box;
+    padding: 20px 20px;
 }
 body{
     display:flex;
@@ -9,12 +11,14 @@ body{
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    color:white;
+    
 }
 input{
     border: 2px solid black;
     border-radius:6px;
     padding: 5px;
 }
-paises.img{
-    width: 200px;
+.paises img{
+    width: 150px;
 }

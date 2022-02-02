@@ -1,9 +1,9 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# HTML Dinâmico
+# Prática Eventos
 
 ## Exercícios de classe 🏫
-1. Consulta de países
+1. Projeto "Galeria"
 
 ---
 

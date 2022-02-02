@@ -16,19 +16,19 @@ buscaInput.addEventListener("keydown", (event) => {
                 div = document.createElement("div")
 
                 const nome = document.createElement("h2")
-                nome.textContent = (`${body2.name}`)
+                nome.textContent = (` País: ${body2.name}`)
 
                 const bandeira = document.createElement("img")
                 bandeira.src = (`${body2.flag}`)
 
                 const capital = document.createElement("p")
-                capital.textContent = (`${body2.capital}`)
+                capital.textContent = (`Capital: ${body2.capital}`)
 
                 const regiao = document.createElement("span")
-                regiao.textContent = (`${body2.region}`)
+                regiao.textContent = (`Região: ${body2.region}`)
 
                 const populacao = document.createElement("p")
-                nome.textContent = (`${body2.population}`)
+                populacao.textContent = (`Número populacional: ${body2.population}`)
 
                 div.append(nome, bandeira, capital, regiao, populacao)
                 paises.append(div)
